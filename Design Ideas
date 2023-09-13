@@ -16,3 +16,4 @@ The call should not be considered resolved until these pieces of information are
 Solution/Design Ideas
 1. Use Vocode Open Source features to program AI agents to execute all of the tasks listed above such Collect patient's name and date of birth, Collect insurance information, Offer up best available providers and times, etc.
 2. Use the phone number they provided as a part of the answer to the contact information question to send a text back to them with the appointment date, time, and doctor they chose.
+    a. Use Twilio Conversation API to send text message to phone number with appointment date, time, and doctor
