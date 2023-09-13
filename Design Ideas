@@ -13,7 +13,10 @@ Using resources above, or whatever else you find, produce a working demo (number
 
 The call should not be considered resolved until these pieces of information are all received. After the call ends, send a text to the caller that informs them of their selected appointment date and time, and which doctor they will be seeing.
 
-Solution/Design Ideas
+Solution/Design Ideas/Clear Path to Done
 1. Use Vocode Open Source features to program AI agents to execute all of the tasks listed above such Collect patient's name and date of birth, Collect insurance information, Offer up best available providers and times, etc.
+    1. Configure your number and set up phone call server that can receive phone calls  
+        1. Use Google Voice number since it's free
+        2. Create AI agent that asks those questions and has a conversation and stores the patient's name, phone number and appointment time, date, and doctor in memory locally.
 2. Use the phone number they provided as a part of the answer to the contact information question to send a text back to them with the appointment date, time, and doctor they chose.
     a. Use Twilio Conversation API to send text message to phone number with appointment date, time, and doctor
