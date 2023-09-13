@@ -1,0 +1,18 @@
+Problem Statement: 
+Using resources above, or whatever else you find, produce a working demo (number that we can call), that connects the caller with an AI agent which will:
+
+- Collect patient's name and date of birth
+- Collect insurance information
+    - Payer name and ID
+- Ask if they have a referral, and to who
+- Collect chief medical complaint/reason they are coming in
+- Collect other demographics like address
+- Collect contact information
+- Offer up best available providers and times
+    - Feel free to use fake data and make up doctors and times for this piece
+
+The call should not be considered resolved until these pieces of information are all received. After the call ends, send a text to the caller that informs them of their selected appointment date and time, and which doctor they will be seeing.
+
+Solution/Design Ideas
+1. Use Vocode Open Source features to program AI agents to execute all of the tasks listed above such Collect patient's name and date of birth, Collect insurance information, Offer up best available providers and times, etc.
+2. 
