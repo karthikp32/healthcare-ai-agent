@@ -14,9 +14,9 @@ Using resources above, or whatever else you find, produce a working demo (number
 The call should not be considered resolved until these pieces of information are all received. After the call ends, send a text to the caller that informs them of their selected appointment date and time, and which doctor they will be seeing.
 
 Breaking Down into Subproblems
-1. How can receive phone calls at some phone number? 
+1. How can my app receive phone calls at some phone number? 
     a. Create component that can receive calls at that number and take in audio
-2. How can an AI Agent each of these questions and record the answers for open-ended questions and give options for answers for other questions?
+2. How can an AI Agent ask the user each of those questions and record the answers for open-ended questions and give options for answers for other questions?
     a. Create component where AI Agent will ask each of these questions and either gives options for answers or keeps it open-ended.
 3. How can my application send a text back to the phone number given by user with the appointment date, time, and doctor they selected?
     a. Create component that will send a text back to the phone number given by user with the appointment date, time, and doctor they selected.
